@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="5">
+  <test thread-count="5" name="Test">
+  <parameter name="drName" value="Charlie" />
+    <classes>
+      <class name="org.mmp.patientmodule.tests.ScheduleAppointmentTests">
+      	<methods>
+      		<include name="TC_003_validateScheduleAppointment" />
+      	</methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
